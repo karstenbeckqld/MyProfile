@@ -1,0 +1,420 @@
+body, html {
+    height: 100%;
+}
+p {
+    padding-bottom: 10px;
+}
+a {
+    color: #d8dcde;
+    text-decoration: underline;
+}
+a:hover {
+    color: #2dbcb8;
+}
+a.onlight {
+    color: #2dbcb8;
+    text-decoration: underline;
+}
+a:hover.onlight {
+    color: #323232;
+}
+.to-top {
+    width: 30px;
+    float: right;
+    margin-left: 10px 0 10px 0;
+}
+.on-light {
+    color: #323232;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-variant-caps: all-petite-caps;
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
+.header-lv1 {
+    font-size: 1.5rem;
+}
+a.custom {
+    width: 150px;
+    color: #2dbcb8;
+    background-color: transparent;
+    border: 1px solid #2dbcb8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover.custom {
+    color: #323232;
+    background-color: #2dbcb8;
+    text-decoration: none;
+    border: 1px solid #2dbcb8;
+}
+.light {
+    color: #d8dcde;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.pb40 {
+    padding-bottom: 40px;
+}
+/* Navigation Styles */
+.header1 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-variant: normal;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.header1-highlight {
+    font-size: 30px;
+    color: #2dbcb8;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-variant: normal;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.navbar {
+    text-align: left;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.navbar a {
+    color: #dbdcde;
+}
+.navbar a:active {
+    color: #fff;
+}
+.logo {
+    margin-top: -30px;
+}
+/* End of Navigation Styles */
+/*Jumbotron Styles */
+.jumbotron {
+    background-color: #323232;
+    background-size: cover;
+    height: 100vh;
+    /*background-position: bottom;*/
+    /*min-height: 500px;*/
+    /* background-repeat: no-repeat;*/
+}
+.jumbotron h1, p {
+    color: #2dbcb8; /*#dbdcde;*/
+}
+.jumbotron h1 {
+    padding-top: 120px;
+    float: none;
+    clear: left;
+    background-position: 0% 50%;
+}
+.jumbotron p.lead {
+  font-size: 1.75rem;
+}
+.jumbotron img {
+  width: 50px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+}
+/*.jumbotron img {
+  width: 70px;
+}*/
+/*End of Jumbotron Styles */
+/* Card Styles */
+.card-img-top {
+    max-width: 80px;
+    margin: 0 auto;
+}
+h4.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-variant-caps: all-petite-caps;
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #6d6e70;
+    text-align: left;
+}
+/*.icons {
+  max-height: 4.35rem;
+  width: auto;
+}*/
+.showcase {
+    width: 240px;
+    margin-bottom: 15px;
+    height: auto;
+}
+.card {
+    border: 0;
+    text-align: center;
+    background-color: transparent;
+}
+.text-center p {
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+button.custom {
+    border: 1px solid #2dbcb8;
+    background-color: transparent;
+    color: #2dbcb8;
+    width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button.custom:hover {
+    border: 1px solid #2dbcb8;
+    color: #323232;
+    background-color: #2dbcb8;
+}
+.spell {
+    font-variant-caps: small-caps;
+    font-weight: bold;
+}
+.work-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #2DBCB8;
+}
+.work-row {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grey {
+    background-color: #323232;
+}
+.form-label {
+    color: #FFF;
+    font-family: Lato, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1 em;
+}
+.error {
+    color: #FF797C;
+    font-family: Lato, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+.showcase-img {
+    max-width: 80%;
+}
+.img-fluid {
+    margin-bottom: 20px;
+}
+.line {
+    border-top: 2px solid #2DBCB8;
+    padding-top: 20px;
+    margin-top: 0;
+    /*margin-right: 50%;*/
+    margin-bottom: 0;
+    border-bottom-color: #2DBCB8;
+    border-right-color: #2DBCB8;
+    border-left-color: #2DBCB8;
+    width: 60%;
+}
+.teal {
+    color: #2dbcb8;
+}
+.white-accent {
+    color: #FFF;
+}
+hr.teal-border {
+    border: 1px solid rgba(45, 188, 184, 1.00);
+}
+hr.white-border {
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+.come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+    animation-duration: 0.6s;
+}
+.already-visible {
+    transform: translateY(0);
+    animation: none;
+}
+@keyframes come-in {
+    to {
+        transform: translateY(0);
+    }
+}
+.test {
+    background-color: rgba(123, 123, 123, 1.00);
+    width: 320px;
+    height: 320px;
+}
+.footer {
+    margin-top: -32px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    height: 90px;
+    background-color: #323232;
+    color: #FFF;
+}
+.separator-top {
+    background-image: url(../images/top-wedge.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    background-position: right bottom;
+    background-size: 100% 100%;
+}
+.separator-bottom {
+    background-image: url(../images/bottom-wedge.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    background-position: left bottom;
+    background-size: 100% 100%;
+}
+.highlight {
+    color: #2dbcb8;
+    /*width: 100%;
+    text-align: center;
+    padding-top: 20px;*/
+}
+.accent {
+    color: #2dbcb8;
+}
+.adjusted {
+    padding: 15px;
+}
+.pad80 {
+    padding-top: 80px;
+}
+.pad40 {
+    padding-top: 40px;
+}
+.image {
+    border: 2px solid #323232;
+    width: 30%;
+    float: left;
+    margin: 20px 30px 20px 0;
+}
+.img-border {
+    border: 2px solid #323232;
+}
+.img-fluid {
+    border: 2px solid #323232;
+}
+.afterImage {
+    margin-top: 40px;
+}
+.small30 {
+    border: 2px solid #323232;
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
+}
+.small50 {
+    border: 2px solid #323232;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+.small80 {
+    border: 2px solid #323232;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+}
+.inner-teal {
+    color: #2dbcb8;
+    margin-left: 15px;
+}
+.inner {
+    margin-left: 13px;
+}
+ul {
+    color: #d8dcde;
+    font-weight: 300;
+}
+.emphasis {
+    color: #2dbcb8;
+    font-weight: 400;
+}
+.center {
+    margin: 0 auto;
+}
+@media (min-width:576px) and (max-width:991px) {
+    .small {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .image {
+        border: 2px solid #323232;
+        width: 50%;
+        float: left;
+        margin: 20px 20px 20px 0;
+    }
+}
+@media (min-width:0px) and (max-width:575px) {
+    .small {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .image {
+        border: 2px solid #323232;
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+.panel {
+    padding: 0 20px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+.panel-inner {
+    margin-top: 20px;
+}
+button.accordion {
+    background-color: transparent;
+    color: #2dbcb8;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #2dbcb8;
+    border-left: 0px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-variant-caps: all-petite-caps;
+    text-align: left;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: #2dbcb8;
+    float: right;
+    margin-left: 5px;
+}
+.toggle:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: #2dbcb8;
+}
